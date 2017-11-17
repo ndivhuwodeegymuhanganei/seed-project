@@ -34,6 +34,10 @@ export class MessageService{
         .catch((error: Response)=> Observable.throw(error.json()));
         
     }
+
+    editMessage() {
+        
+    }
  
     deleteMessage(message: Message){
         this.messages.splice(this.messages.indexOf(message), 1);
