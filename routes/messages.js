@@ -47,7 +47,7 @@ router.post('/', function(req, res, next) {
         }
         var message = new Message({
             content: req.body.content,
-            user: user._id
+            user: user
         });
         message.save(function(err, result) {
             if (err) {
