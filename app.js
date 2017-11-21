@@ -17,7 +17,7 @@ var uri = "mongodb://Deegy_M:Tshianeo%4063@mycluster0-shard-00-00-wpeiv.mongodb.
 MongoClient.connect(uri, function(err, db) {
 
 });
-mongoose.connect('localhost:27017/node-angular')
+mongoose.connect('test-user:test_pw@ds113906.mlab.com:13906/angular2-deployment')
     // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
